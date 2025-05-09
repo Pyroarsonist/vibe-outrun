@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vibe-outrun/static/css/main.f92b5aa1.css",
+    "main.js": "/vibe-outrun/static/js/main.2f531566.js",
+    "index.html": "/vibe-outrun/index.html",
+    "main.f92b5aa1.css.map": "/vibe-outrun/static/css/main.f92b5aa1.css.map",
+    "main.2f531566.js.map": "/vibe-outrun/static/js/main.2f531566.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f92b5aa1.css",
+    "static/js/main.2f531566.js"
+  ]
+}
