@@ -83,6 +83,33 @@ Launches the test runner in the interactive watch mode.
 
 Builds the app for production to the `build` folder.
 
+### `npm run deploy`
+
+Deploys the app to GitHub Pages. This command will first build the app and then publish it to the gh-pages branch of your GitHub repository.
+
+## Deployment
+
+This project is configured for deployment to GitHub Pages. Follow these steps to deploy:
+
+1. Update the `homepage` field in `package.json` with your GitHub username:
+   ```
+   "homepage": "https://pyroarsonist.github.io/vibe-outrun"
+   ```
+
+2. Install the required dependencies if you haven't already:
+   ```
+   npm install
+   ```
+
+3. Deploy the app to GitHub Pages:
+   ```
+   npm run deploy
+   ```
+
+4. Your app will be available at `https://pyroarsonist.github.io/vibe-outrun`
+
+Note: Make sure your repository is public and that you have the necessary permissions to deploy to GitHub Pages.
+
 ## Future Enhancements
 
 - Add sound effects and background music
